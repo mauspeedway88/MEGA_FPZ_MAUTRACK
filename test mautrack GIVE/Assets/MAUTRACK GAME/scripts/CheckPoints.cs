@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.SocialPlatforms;
 using UnityEngine.UI;
 using UnityStandardAssets.Vehicles.Car;
+using Mautrack.PlayFabIntegration;
 
 public class CheckPoints : MonoBehaviour
 {   
@@ -62,7 +63,15 @@ public class CheckPoints : MonoBehaviour
                 int checkPointTextValue;
                 checkPointTextValue = CheckPointsManager.checkPointCounter + 1;
                 if (checkPointTextValue> _checkPointsManager.checkPointsArray.Length)
-                { nextCheckPointText.text = "FINISH"; }
+                { 
+                    nextCheckPointText.text = "FINISH";
+                    // REWARD LOGIC
+                    if (PlayFabManager.Instance != null)
+                    {
+                        PlayFabManager.Instance.RecordGameResult(true, 100); // Win = true, 100 Coins
+                        Debug.Log("Race Finished! Rewarded 100 coins.");
+                    }
+                }
                 else { nextCheckPointText.text = checkPointTextValue.ToString(); }
                 
                 _checkPointsManager.changeMat(1);

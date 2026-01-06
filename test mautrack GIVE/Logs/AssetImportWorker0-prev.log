@@ -1,0 +1,2218 @@
+Unity Editor version:    6000.3.2f1 (a9779f353c9b)
+Branch:                  6000.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 15.7.2 (Build 24G325)
+Darwin version:          24.6.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        32768 MB
+Date:                    2026-01-06T21:04:55Z
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mauricio" at "2026-01-06T21:04:55.783495Z"
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Unity-6000.3.2f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/mauricio/Unity Projects Multiplayers/car+soldier+multiplayer/test mautrack GIVE
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59232
+-licensingIpc
+LicenseClient-mauricio
+-job-worker-count
+4
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name AssetImport
+Successfully changed project path to: /Users/mauricio/Unity Projects Multiplayers/car+soldier+multiplayer/test mautrack GIVE
+/Users/mauricio/Unity Projects Multiplayers/car+soldier+multiplayer/test mautrack GIVE
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8666161664]  Target information:
+
+Player connection [8666161664]  * "[IP] 192.168.193.64 [Port] 0 [Flags] 2 [Guid] 792790521 [EditorId] 792790521 [Version] 1048832 [Id] OSXEditor(0,mauricios-Mac-Studio.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8666161664]  * "[IP] 192.168.31.231 [Port] 0 [Flags] 2 [Guid] 792790521 [EditorId] 792790521 [Version] 1048832 [Id] OSXEditor(0,mauricios-Mac-Studio.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8666161664] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8666161664] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 4
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 3.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.2f1 (a9779f353c9b)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Unity-6000.3.2f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/mauricio/Unity Projects Multiplayers/car+soldier+multiplayer/test mautrack GIVE/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+ preferred device: Apple M1 Max (high power)
+Metal devices available: 1
+0: Apple M1 Max (high power)
+Using device Apple M1 Max (high power)
+Initializing Metal device caps: Apple M1 Max
+Mac GPU Family: 2
+Apple GPU Family: 7
+MSL Version: 3.0
+Has Float MSAA: 1
+Has Float Filtering: 1
+ReadWrite Texture Tier: 2
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              e5418afc484947ebaac19515f5d8024e
+  Correlation Id:          c37646052004e76fb9e882cbfd06bdfb
+  External correlation Id: 1165250424052873235
+  Machine Id:              0imJRhc5LGfs3ayMaytVzXBB2kU=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-mauricio" (connect: 0.00s, validation: 0.00s, handshake: 0.44s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mauricio-notifications" at "2026-01-06T21:04:56.228983Z"
+[Licensing::Module] Licensing Background thread has ended after 0.45s
+Initialize mono
+Mono path[0] = '/Applications/Unity/Unity-6000.3.2f1/Unity.app/Contents/Resources/Scripting/Managed'
+Mono path[1] = '/Applications/Unity/Unity-6000.3.2f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Unity-6000.3.2f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56950
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Unity-6000.3.2f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Unity-6000.3.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Unity-6000.3.2f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 99783-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: /Applications/Unity/Unity-6000.3.2f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: /Applications/Unity/Unity-6000.3.2f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.004167 seconds.
+- Loaded All Assemblies, in  0.308 seconds
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+2026-01-06 15:04:56.771 Unity[19950:653146] [XcodeApplications] Failed to read NSDictionary from path H)V/Contents/Info.plist
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.445 seconds
+Domain Reload Profiling: 753ms
+	BeginReloadAssembly (97ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (143ms)
+		LoadAssemblies (99ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (139ms)
+			TypeCache.Refresh (138ms)
+				TypeCache.ScanAssembly (127ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (445ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (413ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (151ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (122ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[CoreBusinessMetrics] Unexpected thread when updating session info.
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.502 seconds
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.460 seconds
+Domain Reload Profiling: 962ms
+	BeginReloadAssembly (110ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (325ms)
+		LoadAssemblies (217ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (151ms)
+			TypeCache.Refresh (126ms)
+				TypeCache.ScanAssembly (112ms)
+			BuildScriptInfoCaches (18ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (460ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (344ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (95ms)
+			ProcessInitializeOnLoadAttributes (211ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Launching external process: /Applications/Unity/Unity-6000.3.2f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3770 unused Assets / (0.9 MB). Loaded Objects now: 4352.
+Memory consumption went from 86.6 MB to 85.6 MB.
+Total: 5.535833 ms (FindLiveObjects: 0.465666 ms CreateObjectMapping: 0.107083 ms MarkObjects: 4.337667 ms  DeleteObjects: 0.624834 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 35499.976324 seconds.
+  path: Assets/MAUTRACK GAME/Materials/checkpoint transparent FINISH.mat
+  artifactKey: Guid(3d457c78d04ad4cb1b74d28662bfc339) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/Materials/checkpoint transparent FINISH.mat using Guid(3d457c78d04ad4cb1b74d28662bfc339) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '58b88ccaad8a48b82f5b4a4c31b5e3a5') in 0.180192458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/MAUTRACK GAME/models/respaw trienagle.fbx
+  artifactKey: Guid(20e8623e0c960431da0f067e643c644e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/models/respaw trienagle.fbx using Guid(20e8623e0c960431da0f067e643c644e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1d90e5000064464690d65962f1c81ad6') in 0.035690375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/MAUTRACK GAME/Materials/finish 1.mat
+  artifactKey: Guid(8318008fd633c42eb901ca8bd41417cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/Materials/finish 1.mat using Guid(8318008fd633c42eb901ca8bd41417cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '70a5892da40eec08448719e55495482b') in 0.001818625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/MAUTRACK GAME/models/marlyn.fbx
+  artifactKey: Guid(373b4a64537674405b407e163ef6512d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/models/marlyn.fbx using Guid(373b4a64537674405b407e163ef6512d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4361022fa445b9c423b77d1cb5d25f0a') in 0.010888083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/MAUTRACK GAME/scripts/CarShopUI.cs
+  artifactKey: Guid(b556f53d44c08429d8f4799a4eb2d71c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/scripts/CarShopUI.cs using Guid(b556f53d44c08429d8f4799a4eb2d71c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ca6412e67a216c816d4950f3c8b1e9a9') in 0.001519166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/MAUTRACK GAME/Materials/grama.mat
+  artifactKey: Guid(07384464b37824730a75e81444de40ff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/Materials/grama.mat using Guid(07384464b37824730a75e81444de40ff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fbcb771e5b2402cf6eac394b21fd4330') in 0.002375958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/MAUTRACK GAME/Materials/monatias 3.mat
+  artifactKey: Guid(212c80ba5dce44211bc68ad295948dfa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/Materials/monatias 3.mat using Guid(212c80ba5dce44211bc68ad295948dfa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b577bab284d54fb11f5d6843f78025d4') in 0.00200275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/MAUTRACK GAME/models/sppedup base.fbx
+  artifactKey: Guid(0cb929c05a4f94d51be1b0069dcb4bb4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/models/sppedup base.fbx using Guid(0cb929c05a4f94d51be1b0069dcb4bb4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '46e0e19e05e3942b93ccfc96701958ac') in 0.00458675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/GoogleMobileAds/GoogleMobileAds.Common.dll
+  artifactKey: Guid(91a5b07cc3384f86a88d7c29698e058b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GoogleMobileAds/GoogleMobileAds.Common.dll using Guid(91a5b07cc3384f86a88d7c29698e058b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0a10c4c11574be5efe0d57595e9fabb8') in 0.00267575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/MAUTRACK GAME/Materials/black color.mat
+  artifactKey: Guid(479c935213c4b4bb9bbf73b3bb486375) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/Materials/black color.mat using Guid(479c935213c4b4bb9bbf73b3bb486375) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'abf3223e66d421b82c63d3e8b63de274') in 0.001959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/MAUTRACK GAME/Materials/checkpoint 06 FINICH.mat
+  artifactKey: Guid(a31a8a5ff91bf499fb43b2d553e83fec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/Materials/checkpoint 06 FINICH.mat using Guid(a31a8a5ff91bf499fb43b2d553e83fec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '61b3ba94a00494f0ae5eacce89bc72cb') in 0.021195333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/MAUTRACK GAME/Prefabs/arcos (1).prefab
+  artifactKey: Guid(6867773c06e19411690c6908b06b7c78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/Prefabs/arcos (1).prefab using Guid(6867773c06e19411690c6908b06b7c78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e70dbb9d4a317c620db09e1917545271') in 0.002947667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd83c7961b1cad84084d62f905695fd44') in 0.001141333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/GoogleMobileAds/LICENSE
+  artifactKey: Guid(dced4676809d4fd080dc99cc6b32b2ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GoogleMobileAds/LICENSE using Guid(dced4676809d4fd080dc99cc6b32b2ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '948b5f1896d406fe9f8aebdc88b479c5') in 0.001190542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/PlayFabSDK/PlayFab.asmdef
+  artifactKey: Guid(0da6d172d18a54e4389d0dce1e1ffdf2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PlayFabSDK/PlayFab.asmdef using Guid(0da6d172d18a54e4389d0dce1e1ffdf2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e1c0f22605b4e9ec6e01ce1dde9736a4') in 0.001438375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/GoogleMobileAds/Editor/gma_settings_editor_localization_data.json
+  artifactKey: Guid(83a3846a658ae46219b050c8451aabfe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GoogleMobileAds/Editor/gma_settings_editor_localization_data.json using Guid(83a3846a658ae46219b050c8451aabfe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8b22e0ac3982db94db731954ec95e43d') in 0.001429167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/MAUTRACK GAME/Materials/checkpoint 03.mat
+  artifactKey: Guid(5c3d5644b4a55401a82415e4ef654ff6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/Materials/checkpoint 03.mat using Guid(5c3d5644b4a55401a82415e4ef654ff6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '334b12e5380dcce95500d1621b50597b') in 0.003287167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/MAUTRACK GAME/Materials/checkpoint transparent 1-5.mat
+  artifactKey: Guid(c586e3994f9cd47e28c9da183c0ba5de) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/Materials/checkpoint transparent 1-5.mat using Guid(c586e3994f9cd47e28c9da183c0ba5de) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8c73b4c3ad559774a84afa34b3a5b903') in 0.0025605 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/MAUTRACK GAME/Prefabs/speed force orefab.prefab
+  artifactKey: Guid(0d26e1f3962a541d096f3d8051032a27) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/Prefabs/speed force orefab.prefab using Guid(0d26e1f3962a541d096f3d8051032a27) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'aa81838231dfb22b3f00abc21be79e95') in 0.005142375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/MAUTRACK GAME/scripts/CarData.cs
+  artifactKey: Guid(cdd09563fa07943f9af37fb15fa3e52d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/scripts/CarData.cs using Guid(cdd09563fa07943f9af37fb15fa3e52d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'febc35d4be9d99209faf30f584bd48fa') in 0.001208125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/GoogleMobileAds/Editor/PListProcessor.cs
+  artifactKey: Guid(d1d26b084dc244c8c818f67662e51f6c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GoogleMobileAds/Editor/PListProcessor.cs using Guid(d1d26b084dc244c8c818f67662e51f6c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '55d2c3be27d065d721aa343bad28cb6f') in 0.001267959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/MAUTRACK GAME/Materials/checkpoint 04.mat
+  artifactKey: Guid(f36ead14dedfa4f5a87e08efb75a2e32) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/Materials/checkpoint 04.mat using Guid(f36ead14dedfa4f5a87e08efb75a2e32) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f1514aff00b0a2970730e78590800eb6') in 0.002091 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/GoogleMobileAds/Editor/GoogleMobileAdsSettings.cs
+  artifactKey: Guid(a187246822bbb47529482707f3e0eff8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GoogleMobileAds/Editor/GoogleMobileAdsSettings.cs using Guid(a187246822bbb47529482707f3e0eff8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6a2123e89f328a3d311d0059ccdf0609') in 0.001310209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/MAUTRACK GAME/Materials/checkpoint material.mat
+  artifactKey: Guid(701f26c9c06ca4508946e4acb0a70251) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/Materials/checkpoint material.mat using Guid(701f26c9c06ca4508946e4acb0a70251) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c92fb2b685bf2a3e2a1b395489687c68') in 0.001624875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/PlayFabSDK/link.xml
+  artifactKey: Guid(dc2c3070dc174cc45a4aaf1a5e38263d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PlayFabSDK/link.xml using Guid(dc2c3070dc174cc45a4aaf1a5e38263d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2a28c19abd9b5f6e1bd597b434fde964') in 0.001220166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/MAUTRACK GAME/Materials/checkpoint 05.mat
+  artifactKey: Guid(f0cd228f87c364cf0979428eeb7060cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/Materials/checkpoint 05.mat using Guid(f0cd228f87c364cf0979428eeb7060cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '94f36ee20f851e616435095fe2eefa57') in 0.001835875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/GoogleMobileAds/CHANGELOG.md
+  artifactKey: Guid(161c4904cd2045a1bf046453a58a9d7b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GoogleMobileAds/CHANGELOG.md using Guid(161c4904cd2045a1bf046453a58a9d7b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '58eb0abb88bc289c7fcf9d1682f2153f') in 0.001504209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/MAUTRACK GAME/Materials/chepoint LAST material.mat
+  artifactKey: Guid(f6104e284ecfc41409daf66a49eae922) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/Materials/chepoint LAST material.mat using Guid(f6104e284ecfc41409daf66a49eae922) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8352385881d48bcdebcb0b360ee23e80') in 0.055448291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/MAUTRACK GAME/textures/terreno texture.jpg
+  artifactKey: Guid(a56274a8c36654a45a381ae29adc4cf4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/textures/terreno texture.jpg using Guid(a56274a8c36654a45a381ae29adc4cf4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '909fd21dcac9cda68a96f9a5a754820e') in 0.022718875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/MAUTRACK GAME/textures/animacion 3.jpg
+  artifactKey: Guid(1579ff6be33184690a1531d26711eb18) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/textures/animacion 3.jpg using Guid(1579ff6be33184690a1531d26711eb18) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4df1e72fee4abd18bd71f7154ff32ef2') in 0.004019375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/MAUTRACK GAME/textures/back speed 00.jpg
+  artifactKey: Guid(0cd8838d6225345b39a680760fb28913) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/textures/back speed 00.jpg using Guid(0cd8838d6225345b39a680760fb28913) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '175ee9f1344c755361332ec39b24ea54') in 0.007247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/MAUTRACK GAME/textures/montania 02.png
+  artifactKey: Guid(0322e8dbc3fcf430cbb600ee0c6a3683) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/textures/montania 02.png using Guid(0322e8dbc3fcf430cbb600ee0c6a3683) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5321d2f613cf396fa65f3c127e7117f6') in 0.003642208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/MAUTRACK GAME/scripts/PlayFabManager.cs
+  artifactKey: Guid(be4871758a9f143e49a2f79bc37bd3db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/scripts/PlayFabManager.cs using Guid(be4871758a9f143e49a2f79bc37bd3db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dc2032e448f1fda795b54e46cd196f1d') in 0.001222417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/MAUTRACK GAME/textures/marlyn.png
+  artifactKey: Guid(6ba30e3aa2e6f4747921c3defdbdc856) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/textures/marlyn.png using Guid(6ba30e3aa2e6f4747921c3defdbdc856) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a624727fd7a033972a688b91b675f032') in 0.003475875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/MAUTRACK GAME/scripts/WaitSeconds.cs
+  artifactKey: Guid(c40b06057763f41229e6e7f6c9481ded) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/scripts/WaitSeconds.cs using Guid(c40b06057763f41229e6e7f6c9481ded) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '42c6cea19faf67419fea2b4dbc032efb') in 0.001309208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/MAUTRACK GAME/textures/flechita png.png
+  artifactKey: Guid(295bd5f54bdb04e2c8953b70ae58fa86) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/textures/flechita png.png using Guid(295bd5f54bdb04e2c8953b70ae58fa86) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bbec013c1da7c1aa4d8d856d111bee18') in 0.005262375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/MAUTRACK GAME/scripts/renderFALSE1.cs
+  artifactKey: Guid(0221edf5b34614e1d98e841669944571) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/scripts/renderFALSE1.cs using Guid(0221edf5b34614e1d98e841669944571) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ae767ca259f95847d868b035fce3eae8') in 0.001090375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/MAUTRACK GAME/scripts/VehicleRotationScript.cs
+  artifactKey: Guid(3b4b4d3325379412fb4994d7bbad94fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/scripts/VehicleRotationScript.cs using Guid(3b4b4d3325379412fb4994d7bbad94fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '22a73298dd0ccce012d2535b0c6df94a') in 0.000989792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/MAUTRACK GAME/textures/grid triggers.jpg
+  artifactKey: Guid(21cc499aa762749ac9a73217e71edc2b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/textures/grid triggers.jpg using Guid(21cc499aa762749ac9a73217e71edc2b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1a4bb7aedeb32ac8ad3080c3a63b44cc') in 0.003741917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/MAUTRACK GAME/Materials/checkpoint 02.mat
+  artifactKey: Guid(30192891c73294faf9405d79563f4a62) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/Materials/checkpoint 02.mat using Guid(30192891c73294faf9405d79563f4a62) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '953ace242fc8d5402fb6c22c01c74614') in 0.002106292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/MAUTRACK GAME/Materials/ZZ temporal.mat
+  artifactKey: Guid(947c5b6266fed43da9b9d5a2ffc8ab20) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/Materials/ZZ temporal.mat using Guid(947c5b6266fed43da9b9d5a2ffc8ab20) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd917b0b2772ea3f37484764a4b6cce19') in 0.001772333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/MAUTRACK GAME/scripts/LoadScene.cs
+  artifactKey: Guid(40aad461037f74241831c72e05e8b98b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/scripts/LoadScene.cs using Guid(40aad461037f74241831c72e05e8b98b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd38ed0f25567e91ba4050380c10d8ecd') in 0.001270083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/MAUTRACK GAME/scripts/renderfalse.cs
+  artifactKey: Guid(843bd39a014314a2aa3af53fa0d78845) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/scripts/renderfalse.cs using Guid(843bd39a014314a2aa3af53fa0d78845) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'db9459e6eeae8aeacffc0692aea2fcee') in 0.00122675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/MAUTRACK GAME/Materials/marlyn.mat
+  artifactKey: Guid(4fade863bc60148afa46068f69d9b134) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/Materials/marlyn.mat using Guid(4fade863bc60148afa46068f69d9b134) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '70dcfb2cce3f61f1e7a59c7dd8a52037') in 0.002487459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/GoogleMobileAds/Editor/EditorLocalizationData.cs
+  artifactKey: Guid(e7aaa882f59b8405d97e3042283cc034) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GoogleMobileAds/Editor/EditorLocalizationData.cs using Guid(e7aaa882f59b8405d97e3042283cc034) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ec823f40a48044a83554cad15c49f83c') in 0.001254792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/MAUTRACK GAME/textures/verde rojo light texture.jpg
+  artifactKey: Guid(c1a6bdd7e6b484df882518f757031328) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/textures/verde rojo light texture.jpg using Guid(c1a6bdd7e6b484df882518f757031328) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dfe05e5fdbf8a3fb7f5f084677a8de89') in 0.003599375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/MAUTRACK GAME/Speedometer/speedometerNew.png
+  artifactKey: Guid(323436e03ba4f30478a50fdf622a734d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/Speedometer/speedometerNew.png using Guid(323436e03ba4f30478a50fdf622a734d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '60fff3330125c54ecae193e817d99e8b') in 0.004367834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/MAUTRACK GAME/Prefabs/new arrow  to RIGHT Variant.prefab
+  artifactKey: Guid(1107701f8f1014fd18c1a52ccdfa3249) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/Prefabs/new arrow  to RIGHT Variant.prefab using Guid(1107701f8f1014fd18c1a52ccdfa3249) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '62914f0b56052d6f67e286a0759b53d0') in 0.00584525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/GoogleMobileAds/Editor/EditorPathUtils.cs
+  artifactKey: Guid(e1f0097ebfa3e416197e298c9135b6de) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GoogleMobileAds/Editor/EditorPathUtils.cs using Guid(e1f0097ebfa3e416197e298c9135b6de) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '375f110c2d91fa137c2ef675f58c989a') in 0.001101625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/MAUTRACK GAME/scripts/CarShopSlotUI.cs
+  artifactKey: Guid(e359d023ada874720b50927079cbc26b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/scripts/CarShopSlotUI.cs using Guid(e359d023ada874720b50927079cbc26b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e97f1f88f8aae441d11a1e7dea55b1af') in 0.001372417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/MAUTRACK GAME/Prefabs/Car prefab.prefab
+  artifactKey: Guid(c442fe13c1bf34500a43bee4ea2109a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/Prefabs/Car prefab.prefab using Guid(c442fe13c1bf34500a43bee4ea2109a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd951324c8d7d9fab34325040ac62060c') in 0.043229458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 175
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/MAUTRACK GAME/textures/new arrow.jpg
+  artifactKey: Guid(44c39cd7504314110af3c63b35a2d143) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/textures/new arrow.jpg using Guid(44c39cd7504314110af3c63b35a2d143) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c4772b37399c23bbca68cebb2b959991') in 0.003647833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/GoogleMobileAds/GoogleMobileAds.Core.dll
+  artifactKey: Guid(36487fa6a5984d3a80bc98eca8a2b9e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GoogleMobileAds/GoogleMobileAds.Core.dll using Guid(36487fa6a5984d3a80bc98eca8a2b9e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '799b079b93f473d24f1b37745c56e599') in 0.001510667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/MAUTRACK GAME/models/base para pistas 1.fbx
+  artifactKey: Guid(dfd901e12049b456ca4d15fcaaee2c6d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/models/base para pistas 1.fbx using Guid(dfd901e12049b456ca4d15fcaaee2c6d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a81922b9c5ef73da667f71b4cb59f15b') in 0.017611834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 219
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/GoogleMobileAds/Resources/GoogleMobileAdsSettings.asset
+  artifactKey: Guid(26970af97a97a4c228bfcd020ad01f73) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GoogleMobileAds/Resources/GoogleMobileAdsSettings.asset using Guid(26970af97a97a4c228bfcd020ad01f73) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3bfbc38da0005c0ad2ce29c23cc60e00') in 0.002222042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/MAUTRACK GAME/scripts/CheckPointsManager.cs
+  artifactKey: Guid(29683904de689f64eaf5ba8324a015ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/scripts/CheckPointsManager.cs using Guid(29683904de689f64eaf5ba8324a015ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4be562ae8544737b678ec40e257d98c5') in 0.00100775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/GoogleMobileAds/Editor/EditorLocalization.cs
+  artifactKey: Guid(1a843cb3b999a40ea9babd1f69e1232f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GoogleMobileAds/Editor/EditorLocalization.cs using Guid(1a843cb3b999a40ea9babd1f69e1232f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1a5ca6f0c0caff8844f81b5e29b58f83') in 0.00098875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/MAUTRACK GAME/Materials/light verde rojo.mat
+  artifactKey: Guid(5b052a6b7c85d44f89a535f293ca0bcc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/Materials/light verde rojo.mat using Guid(5b052a6b7c85d44f89a535f293ca0bcc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '81f8a234a6f81e0de83df91517ebb4ec') in 0.002088 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/MAUTRACK GAME/models/checkpoint.fbx
+  artifactKey: Guid(ff3ded725c2d04bb49ae1d7c9afff736) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/models/checkpoint.fbx using Guid(ff3ded725c2d04bb49ae1d7c9afff736) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bec0801a2aa51cd05f0ed440c0a6d86d') in 0.005299584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/MAUTRACK GAME/Scenes/track0001.unity
+  artifactKey: Guid(d7bb7c59129b643fd8d05c6cf6034047) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/Scenes/track0001.unity using Guid(d7bb7c59129b643fd8d05c6cf6034047) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '96bcdee11d73d10f11b2ee9971a47091') in 0.008477625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/MAUTRACK GAME/Materials/respaw delta.mat
+  artifactKey: Guid(99655767a13d84a7b8dc3947c14daa2e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/Materials/respaw delta.mat using Guid(99655767a13d84a7b8dc3947c14daa2e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '73e4d75a81dd18a9108fc58594ab95d8') in 0.001914875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Resources/BillingMode.json
+  artifactKey: Guid(d4855b9ed538e4084bca7956619c8357) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resources/BillingMode.json using Guid(d4855b9ed538e4084bca7956619c8357) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cd5aab5f79485d2435eca0c267e890de') in 0.001154417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/MAUTRACK GAME/scripts/CheckPointNumber.cs
+  artifactKey: Guid(acec7edf6baedfb4b9ac45060eaa047b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/scripts/CheckPointNumber.cs using Guid(acec7edf6baedfb4b9ac45060eaa047b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '754fd1fc75668d8082441a0b1248e967') in 0.001113458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/GoogleMobileAds/link.xml
+  artifactKey: Guid(d6461f9591d240498f49453b73a48552) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GoogleMobileAds/link.xml using Guid(d6461f9591d240498f49453b73a48552) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '08a8c6d1a254af392f5dbcebeb4849a4') in 0.001220334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/MAUTRACK GAME/scripts/lastcheckpoint.cs
+  artifactKey: Guid(c5c13b3b5423748f29cb8cdd7f5abbe1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/scripts/lastcheckpoint.cs using Guid(c5c13b3b5423748f29cb8cdd7f5abbe1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0f68122e1037e741f1512bddcad43360') in 0.001227375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/GoogleMobileAds/GoogleMobileAds.iOS.dll
+  artifactKey: Guid(735ca9cf259f453abac02f4573d8a420) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GoogleMobileAds/GoogleMobileAds.iOS.dll using Guid(735ca9cf259f453abac02f4573d8a420) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'eae7cc2b31ffda20971ce586f387e269') in 0.001536667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/MAUTRACK GAME/textures/terreno texture grma lejana.jpg
+  artifactKey: Guid(a777050890d054b12b88b6fc78435596) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/textures/terreno texture grma lejana.jpg using Guid(a777050890d054b12b88b6fc78435596) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '61eb937f143116996917d71f80d6fb52') in 0.0033815 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/MAUTRACK GAME/scripts/random_move.cs
+  artifactKey: Guid(49fa0bbdffbcb40b09bf13fa27808620) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/scripts/random_move.cs using Guid(49fa0bbdffbcb40b09bf13fa27808620) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5a5eb996a677965398bfca570ff03b78') in 0.001024958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/MAUTRACK GAME/textures/flechita.fbx
+  artifactKey: Guid(d523a01493354432a8e56456d47dedf7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/textures/flechita.fbx using Guid(d523a01493354432a8e56456d47dedf7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0dd5119cd1ce222ac6035bcaafd68b1b') in 0.004015083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/GoogleMobileAds/GoogleMobileAds.Ump.dll
+  artifactKey: Guid(f84de9af142947eeb3522e42d9487838) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GoogleMobileAds/GoogleMobileAds.Ump.dll using Guid(f84de9af142947eeb3522e42d9487838) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '44963d7d611a9b71998278bfbef196fc') in 0.001408417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.297724 seconds.
+  path: Assets/PlayFabSDK/Addon/PlayFabAddonAPI.cs
+  artifactKey: Guid(16e6981cbc311934bab9111885dbfc1a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PlayFabSDK/Addon/PlayFabAddonAPI.cs using Guid(16e6981cbc311934bab9111885dbfc1a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '39659a0a2dfa00d4ddee747a72524ad9') in 0.002547959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/PlayFabSDK/Matchmaker/PlayFabMatchmakerAPI.cs
+  artifactKey: Guid(c712eeedbc85dfa4c80d30f8a2ed6cd9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PlayFabSDK/Matchmaker/PlayFabMatchmakerAPI.cs using Guid(c712eeedbc85dfa4c80d30f8a2ed6cd9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '691a5dfccfe4735956cf51d136741dee') in 0.001117042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/MAUTRACK GAME/models/folder solo tracks models/agua textura png.png
+  artifactKey: Guid(fe1fad71b6946499889fefb73dac41c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/models/folder solo tracks models/agua textura png.png using Guid(fe1fad71b6946499889fefb73dac41c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c60932dcc64798d381aaef2b1bbf9807') in 0.003971084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/MAUTRACK GAME/Materials/texturas carro/llantas.mat
+  artifactKey: Guid(b57d16cb03fc34c1b887430c3187283e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/Materials/texturas carro/llantas.mat using Guid(b57d16cb03fc34c1b887430c3187283e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1410e79b938148a912b68121d236dbd8') in 0.00257675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/PlayFabSDK/Multiplayer/PlayFabEvents.cs
+  artifactKey: Guid(fe16c398171536247a7e4685790d4dac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PlayFabSDK/Multiplayer/PlayFabEvents.cs using Guid(fe16c398171536247a7e4685790d4dac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1efed8c59bafb7236679b4a80a2a510c') in 0.001127167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/PlayFabSDK/Authentication/PlayFabAuthenticationAPI.cs
+  artifactKey: Guid(cf5e0beea20361a45aee9c2329eafd01) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PlayFabSDK/Authentication/PlayFabAuthenticationAPI.cs using Guid(cf5e0beea20361a45aee9c2329eafd01) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7b5978e3a334c729251d3ce1f066b1e0') in 0.001309833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/PlayFabSDK/Economy/PlayFabEconomyModels.cs
+  artifactKey: Guid(9e420d6be63cf50498180c2df1199abc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PlayFabSDK/Economy/PlayFabEconomyModels.cs using Guid(9e420d6be63cf50498180c2df1199abc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c28d30c1ed4e090444fe995ee4f20c07') in 0.002183167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/PlayFabSDK/Client/PlayFabClientInstanceAPI.cs
+  artifactKey: Guid(ddd185cc4cdc40643a08607da563ddc4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PlayFabSDK/Client/PlayFabClientInstanceAPI.cs using Guid(ddd185cc4cdc40643a08607da563ddc4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2e1ee6e17cf59574ad0155b5b5ced197') in 0.001197625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/MAUTRACK GAME/textures/checkpoint textures/checkpoint 00 finish.jpg
+  artifactKey: Guid(5211338b5d42a44aca6e7087c48a2267) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/textures/checkpoint textures/checkpoint 00 finish.jpg using Guid(5211338b5d42a44aca6e7087c48a2267) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bb5ee44155b679a0ec6e6bb85dcf72d6') in 0.003472583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/MAUTRACK GAME/models/folder solo tracks models/track 0001 C.fbx
+  artifactKey: Guid(a52f653f6c0d24ef582f73838ef50525) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/models/folder solo tracks models/track 0001 C.fbx using Guid(a52f653f6c0d24ef582f73838ef50525) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '90d3576746adb6569943840cf3c5c5b4') in 0.006042333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/PlayFabSDK/Profiles/PlayFabProfilesInstanceAPI.cs
+  artifactKey: Guid(ef2cfc8d3e49a7e479e1fe8c2cf18478) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PlayFabSDK/Profiles/PlayFabProfilesInstanceAPI.cs using Guid(ef2cfc8d3e49a7e479e1fe8c2cf18478) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b31d3e84dd74cf37031fdc915241b796') in 0.001335625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/PlayFabSDK/Admin/PlayFabAdminModels.cs
+  artifactKey: Guid(5d7a769446de4b7459591c36c05197ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PlayFabSDK/Admin/PlayFabAdminModels.cs using Guid(5d7a769446de4b7459591c36c05197ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e6acf0a60d284bf25ba6438ba9db10df') in 0.001108625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/PlayFabSDK/Economy/PlayFabEconomyInstanceAPI.cs
+  artifactKey: Guid(57229903c0965c74b90bc2ef8ccbc31c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PlayFabSDK/Economy/PlayFabEconomyInstanceAPI.cs using Guid(57229903c0965c74b90bc2ef8ccbc31c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8fe943db208da77b5c2ffed8f1d6f3c0') in 0.00144675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/PlayFabSDK/Profiles/PlayFabProfilesAPI.cs
+  artifactKey: Guid(04039b10ae9eebd46a8c4a5b401ea567) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PlayFabSDK/Profiles/PlayFabProfilesAPI.cs using Guid(04039b10ae9eebd46a8c4a5b401ea567) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '510732b7f94a0ec6897d62a89fa45d4b') in 0.001291792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/PlayFabSDK/Experimentation/PlayFabExperimentationAPI.cs
+  artifactKey: Guid(9dbcafaa60e9f2a41930b9907fb0c133) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PlayFabSDK/Experimentation/PlayFabExperimentationAPI.cs using Guid(9dbcafaa60e9f2a41930b9907fb0c133) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd92304f33223e8dc0317b5510cad5bfe') in 0.001088042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/MAUTRACK GAME/models/folder solo tracks models/calle 9.jpg
+  artifactKey: Guid(e03c0f33db4c5482489c149ae35437fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/models/folder solo tracks models/calle 9.jpg using Guid(e03c0f33db4c5482489c149ae35437fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f7e166965e3b2b79adad7462ed983909') in 0.003725542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/PlayFabSDK/Insights/PlayFabInsightsInstanceAPI.cs
+  artifactKey: Guid(c2e7ee83796bb834cbd6263a7a6d65ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PlayFabSDK/Insights/PlayFabInsightsInstanceAPI.cs using Guid(c2e7ee83796bb834cbd6263a7a6d65ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'df1d644bba0f6481a195652477a9e6a8') in 0.001147459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/PlayFabSDK/Events/PlayFabEvents.cs
+  artifactKey: Guid(816bf581b4b09c04bbf42adfea99a423) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PlayFabSDK/Events/PlayFabEvents.cs using Guid(816bf581b4b09c04bbf42adfea99a423) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1b05ad3bdd11b7fe3963bdab14e98e94') in 0.001115833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/MAUTRACK GAME/textures/checkpoint textures/checkpoint 02.jpg
+  artifactKey: Guid(e1a451b616e174fbb9cadf37c4de2fff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/textures/checkpoint textures/checkpoint 02.jpg using Guid(e1a451b616e174fbb9cadf37c4de2fff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6b2ebe95a40bd3cd080f7a98db684231') in 0.003302875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/PlayFabSDK/CloudScript/PlayFabCloudScriptInstanceAPI.cs
+  artifactKey: Guid(ac313c777a2b7054e9632c96829e1f7d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PlayFabSDK/CloudScript/PlayFabCloudScriptInstanceAPI.cs using Guid(ac313c777a2b7054e9632c96829e1f7d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ab7b93375c32a84ec9424010ff708450') in 0.001110209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/PlayFabSDK/Progression/PlayFabProgressionAPI.cs
+  artifactKey: Guid(77a7d66f0cc99ad40a5068f8a1e2865f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PlayFabSDK/Progression/PlayFabProgressionAPI.cs using Guid(77a7d66f0cc99ad40a5068f8a1e2865f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9e6fec361ccba3439cec978d703959cd') in 0.001145458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/MAUTRACK GAME/textures/checkpoint textures/checkpoint 04.jpg
+  artifactKey: Guid(7fee309fb24ac4192977060decd8d054) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/textures/checkpoint textures/checkpoint 04.jpg using Guid(7fee309fb24ac4192977060decd8d054) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '92811610111544791222d3692f9a39b0') in 0.004228834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/PlayFabSDK/Economy/PlayFabEconomyAPI.cs
+  artifactKey: Guid(56036e5215ab72544b38afa65f5684e0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PlayFabSDK/Economy/PlayFabEconomyAPI.cs using Guid(56036e5215ab72544b38afa65f5684e0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ab6d1b309befe0bb2a796bbf1b613dd0') in 0.001185875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/PlayFabSDK/Entity/ScreenTimeTracker.cs
+  artifactKey: Guid(bb87bdc3f40216e419c8f1b76c4517d6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PlayFabSDK/Entity/ScreenTimeTracker.cs using Guid(bb87bdc3f40216e419c8f1b76c4517d6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9b9b3f34950ef5c2e581a1df1cf39dfd') in 0.001069916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/PlayFabSDK/Insights/PlayFabInsightsModels.cs
+  artifactKey: Guid(0018df8cb03ec3a498320c2be74427e4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PlayFabSDK/Insights/PlayFabInsightsModels.cs using Guid(0018df8cb03ec3a498320c2be74427e4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '65db7ecf142f1b7ededc78449da346cf') in 0.00108325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/PlayFabSDK/Experimentation/PlayFabExperimentationInstanceAPI.cs
+  artifactKey: Guid(ecc5b8d11fae41b4daaaf638349fdc78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PlayFabSDK/Experimentation/PlayFabExperimentationInstanceAPI.cs using Guid(ecc5b8d11fae41b4daaaf638349fdc78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '119fcc403ad42ba0e758594b627ee6ce') in 0.001252625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/PlayFabSDK/Admin/PlayFabAdminInstanceAPI.cs
+  artifactKey: Guid(942c3c5d808dfed49b4c4369cc282d49) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PlayFabSDK/Admin/PlayFabAdminInstanceAPI.cs using Guid(942c3c5d808dfed49b4c4369cc282d49) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b73138b9be978f83b85c04d14f696f5c') in 0.001012375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/PlayFabSDK/Data/PlayFabDataModels.cs
+  artifactKey: Guid(3ab3048b1bd63d747b28b2fe0b181743) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PlayFabSDK/Data/PlayFabDataModels.cs using Guid(3ab3048b1bd63d747b28b2fe0b181743) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9ee6895666194301d339069f25378c6c') in 0.001189542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/PlayFabSDK/Admin/PlayFabAdminAPI.cs
+  artifactKey: Guid(98aa7d0b4d53fe24392fc8cc52120845) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PlayFabSDK/Admin/PlayFabAdminAPI.cs using Guid(98aa7d0b4d53fe24392fc8cc52120845) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2f0d0117ed7da27a28b0eb74b750e975') in 0.001000292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/PlayFabSDK/Server/PlayFabServerInstanceAPI.cs
+  artifactKey: Guid(76d4a622fa263d34b9f73488c0095f8b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PlayFabSDK/Server/PlayFabServerInstanceAPI.cs using Guid(76d4a622fa263d34b9f73488c0095f8b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5c3017951011f35b4fd8b52d0d69102b') in 0.001207 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/MAUTRACK GAME/models/folder solo tracks models/inicio cubo START.fbx
+  artifactKey: Guid(b96a14265c190402a9ba4867896e44f7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/models/folder solo tracks models/inicio cubo START.fbx using Guid(b96a14265c190402a9ba4867896e44f7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b4e58250f9fea04f15abaa2d3a3234f8') in 0.00406225 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/PlayFabSDK/Addon/PlayFabAddonModels.cs
+  artifactKey: Guid(87ffcc7751ee8d54a9effc1467d73c87) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PlayFabSDK/Addon/PlayFabAddonModels.cs using Guid(87ffcc7751ee8d54a9effc1467d73c87) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '21b997eb717203ca7f4717c1a4164ee2') in 0.001019292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/PlayFabSDK/Matchmaker/PlayFabMatchmakerModels.cs
+  artifactKey: Guid(c7c60a1006c1e64499804ca82b2412ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PlayFabSDK/Matchmaker/PlayFabMatchmakerModels.cs using Guid(c7c60a1006c1e64499804ca82b2412ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'aecdb177cab72a669ecac570edfbd2c3') in 0.001162541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/PlayFabSDK/Profiles/PlayFabEvents.cs
+  artifactKey: Guid(108a292bd382f6c4a88576ed2173cb93) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PlayFabSDK/Profiles/PlayFabEvents.cs using Guid(108a292bd382f6c4a88576ed2173cb93) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f21f698ef7e70e85484385a44e007e11') in 0.001142917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/MAUTRACK GAME/models/folder solo tracks models/track 0000 REFERENCIA.fbx
+  artifactKey: Guid(d86e376f868c0450995b3d0f3e49eb20) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/models/folder solo tracks models/track 0000 REFERENCIA.fbx using Guid(d86e376f868c0450995b3d0f3e49eb20) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'deb5d51c8545d94ba343b32d41dd1ff9') in 0.003584375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/PlayFabSDK/Events/PlayFabEventsModels.cs
+  artifactKey: Guid(9ee524faa41ee444ca207259e58e70a1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PlayFabSDK/Events/PlayFabEventsModels.cs using Guid(9ee524faa41ee444ca207259e58e70a1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b3babe14e8d7a9dea9e665b92a3b3d57') in 0.001230458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/MAUTRACK GAME/models/folder solo tracks models/track 0001 terreno.fbx
+  artifactKey: Guid(bd8757bef68a64b269d99d27d4d9ee21) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/models/folder solo tracks models/track 0001 terreno.fbx using Guid(bd8757bef68a64b269d99d27d4d9ee21) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ad93f2c94ccef02451627a8614a584d4') in 0.004841584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/PlayFabSDK/Experimentation/PlayFabExperimentationModels.cs
+  artifactKey: Guid(0804132d8066c1440a5cfdd0e56bf63c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PlayFabSDK/Experimentation/PlayFabExperimentationModels.cs using Guid(0804132d8066c1440a5cfdd0e56bf63c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5a7bbfc13c5fa4d9b47daa1186441943') in 0.001065459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Plugins/iOS/GADUAdNetworkExtras.h
+  artifactKey: Guid(1c0d8a6c9b36440eaa4c01518670217f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/iOS/GADUAdNetworkExtras.h using Guid(1c0d8a6c9b36440eaa4c01518670217f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '23adffec0bdabfd8100dc0e097877d3f') in 0.001387333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/PlayFabSDK/Events/PlayFabEventsInstanceAPI.cs
+  artifactKey: Guid(efc8181560ecd0748a12a6df7137998e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PlayFabSDK/Events/PlayFabEventsInstanceAPI.cs using Guid(efc8181560ecd0748a12a6df7137998e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b941ed3a74e7aaa5d858a9ebd12acbdf') in 0.002625375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/PlayFabSDK/Groups/PlayFabGroupsInstanceAPI.cs
+  artifactKey: Guid(e14b336d534f60f4e911c8db52e74a86) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PlayFabSDK/Groups/PlayFabGroupsInstanceAPI.cs using Guid(e14b336d534f60f4e911c8db52e74a86) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '68d2346f4394cc7a8447d209901a8469') in 0.001230375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/PlayFabSDK/Insights/PlayFabEvents.cs
+  artifactKey: Guid(f37defb20913be94a8d7b0e4ed5b97cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PlayFabSDK/Insights/PlayFabEvents.cs using Guid(f37defb20913be94a8d7b0e4ed5b97cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2169df45aa8686f25465e035a4def893') in 0.00101475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/PlayFabSDK/Localization/PlayFabLocalizationInstanceAPI.cs
+  artifactKey: Guid(0e3a59c48c3c6fb45a9d83845b225dde) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PlayFabSDK/Localization/PlayFabLocalizationInstanceAPI.cs using Guid(0e3a59c48c3c6fb45a9d83845b225dde) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cf0f925e98b1ef9405e6d11db0d58c00') in 0.001294083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/PlayFabSDK/Profiles/PlayFabProfilesModels.cs
+  artifactKey: Guid(d7cf1e15acb646e4eaf8ef5d951b1477) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PlayFabSDK/Profiles/PlayFabProfilesModels.cs using Guid(d7cf1e15acb646e4eaf8ef5d951b1477) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '77540907d38e1aff3c218fd97c397523') in 0.001429834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/PlayFabSDK/Data/PlayFabDataInstanceAPI.cs
+  artifactKey: Guid(6c754c6db47f4d943954121319b071d6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PlayFabSDK/Data/PlayFabDataInstanceAPI.cs using Guid(6c754c6db47f4d943954121319b071d6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7de1d579ba0e2db6ce9c986d0f169005') in 0.001220792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Plugins/Android/mainTemplate.gradle
+  artifactKey: Guid(64b597d5112b74e2293bcf967b491c5d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/Android/mainTemplate.gradle using Guid(64b597d5112b74e2293bcf967b491c5d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ca1487656e937d8529ae46267fa80a35') in 0.001086333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/PlayFabSDK/Groups/PlayFabGroupsModels.cs
+  artifactKey: Guid(d73f86b427d81044bb2417ea3b5b03ac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PlayFabSDK/Groups/PlayFabGroupsModels.cs using Guid(d73f86b427d81044bb2417ea3b5b03ac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b4d5684c0d8cf92d7f9fd7f5c8ecd15b') in 0.001221709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/MAUTRACK GAME/models/folder solo tracks models/calle 8 -1024.jpg
+  artifactKey: Guid(d57659101a73e4a41a0fde8d2cfd5ee1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/models/folder solo tracks models/calle 8 -1024.jpg using Guid(d57659101a73e4a41a0fde8d2cfd5ee1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'aeaf279b70a81e811f62255ca5f4b6a0') in 0.003446167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/MAUTRACK GAME/models/folder solo tracks models/calle 9.mat
+  artifactKey: Guid(2cad454c4ade144b1b27e663c82a7a4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/models/folder solo tracks models/calle 9.mat using Guid(2cad454c4ade144b1b27e663c82a7a4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6e0bcfe30ff60de4575d2d8584dc141d') in 0.002347333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/PlayFabSDK/Client/PlayFabEvents.cs
+  artifactKey: Guid(da33df462ae2fa04cb401398dc2b8a5d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PlayFabSDK/Client/PlayFabEvents.cs using Guid(da33df462ae2fa04cb401398dc2b8a5d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f5472a98b60924b28a49a4cd30d01d10') in 0.0012985 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/PlayFabSDK/Multiplayer/PlayFabMultiplayerInstanceAPI.cs
+  artifactKey: Guid(a4dbb109fa8001b4b9fa53260ba50cf8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PlayFabSDK/Multiplayer/PlayFabMultiplayerInstanceAPI.cs using Guid(a4dbb109fa8001b4b9fa53260ba50cf8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6fea3d9134f7542d7fb65f41baeb33ba') in 0.001484125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Plugins/Android/googlemobileads-unity.aar
+  artifactKey: Guid(c318684db3e949ee938fbe37ab78acbb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/Android/googlemobileads-unity.aar using Guid(c318684db3e949ee938fbe37ab78acbb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3eb55952d2d32c6b1bc8265f0f0b78c2') in 0.001559667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.397567 seconds.
+  path: Assets/MAUTRACK GAME/textures/checkpoint textures/checkpoint 05.jpg
+  artifactKey: Guid(99efccfd665bd4cd884aeb804966d5b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/textures/checkpoint textures/checkpoint 05.jpg using Guid(99efccfd665bd4cd884aeb804966d5b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5b4aea4bf06d4acbf1f5e8864995cc8f') in 0.00384275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Car/Materials/TrailSkid.mat
+  artifactKey: Guid(f4dd0bba6decdd5418fd3d541ff5f7f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Car/Materials/TrailSkid.mat using Guid(f4dd0bba6decdd5418fd3d541ff5f7f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '26520b4514670213b6833d20de9d6d69') in 0.002681209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/Rewarded/768x1024.prefab
+  artifactKey: Guid(4e3dd9a9607da46da8125b4b59a18db2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/Rewarded/768x1024.prefab using Guid(4e3dd9a9607da46da8125b4b59a18db2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4950568cfe6b708bd5829b91004d2425') in 0.010439208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Car/Materials/ParticleSmokeWhite.mat
+  artifactKey: Guid(c617e7cbee0d2344a9b5e53116c43a2c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Car/Materials/ParticleSmokeWhite.mat using Guid(c617e7cbee0d2344a9b5e53116c43a2c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1afb2de4698d6910afc627827dcdf8c4') in 0.005458334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/PlayFabSDK/Shared/Internal/PlayFabHttp/GzipDownloadHandler.cs
+  artifactKey: Guid(40479a6315f18a54a9db2c924e0af5ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PlayFabSDK/Shared/Internal/PlayFabHttp/GzipDownloadHandler.cs using Guid(40479a6315f18a54a9db2c924e0af5ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e8d2dc2f531b7a728b365f8a62cc664c') in 0.001416209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/AdImages/768x1024.png
+  artifactKey: Guid(8a53f9c63a5e94b14a98698a7b07365b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/AdImages/768x1024.png using Guid(8a53f9c63a5e94b14a98698a7b07365b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd8996d501068a557721391acc679b70e') in 0.004081708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/SampleScenes/Menu/Scripts/SceneAndURLLoader.cs
+  artifactKey: Guid(f8aafc40d80cc4647a3755c51948d4ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/SampleScenes/Menu/Scripts/SceneAndURLLoader.cs using Guid(f8aafc40d80cc4647a3755c51948d4ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f3a248d219c32a7e3b2e85c24d1f644d') in 0.001293125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/CrossPlatformInput/Scripts/ButtonHandler.cs
+  artifactKey: Guid(85bf3be603548374ca46f521a3aa7fda) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/CrossPlatformInput/Scripts/ButtonHandler.cs using Guid(85bf3be603548374ca46f521a3aa7fda) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ed0c14cef136ecc8da739cc1073deb11') in 0.001203625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Car/Audio/DecelerationHigh.wav
+  artifactKey: Guid(03bf91d88fce91c41995d27de63cc967) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Car/Audio/DecelerationHigh.wav using Guid(03bf91d88fce91c41995d27de63cc967) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dc9186423b562730bbac5f9493fa1b74') in 0.0109385 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/AppOpen/1024x768.prefab
+  artifactKey: Guid(30454d768d0994255b52eafa89dad8e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/AppOpen/1024x768.prefab using Guid(30454d768d0994255b52eafa89dad8e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ed7cdc7fb7f0b267cd6781ac5fdb5dfe') in 0.004615708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/SampleScenes/Scripts/SlowMoButton.cs
+  artifactKey: Guid(a24b7aa9e2aea85489b4e8071ea81500) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/SampleScenes/Scripts/SlowMoButton.cs using Guid(a24b7aa9e2aea85489b4e8071ea81500) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '11587b9b857ad12faa4c3e7bfe0d872f') in 0.001453917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Utility/SmoothFollow.cs
+  artifactKey: Guid(f76806479d916a64aa03f8e3eba7912f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Utility/SmoothFollow.cs using Guid(f76806479d916a64aa03f8e3eba7912f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b77f59a44a1b7abcdcb1b9e49946aa5a') in 0.001274792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Car/Scripts/SkidTrail.cs
+  artifactKey: Guid(9ce3a3a1349a5774b94761844e652a65) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Car/Scripts/SkidTrail.cs using Guid(9ce3a3a1349a5774b94761844e652a65) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3e99cc5425d9034ec474fd5a26e271c7') in 0.001145125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Utility/TimedObjectActivator.cs
+  artifactKey: Guid(3a7cedf246fca744f90cbdc9dbe41166) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Utility/TimedObjectActivator.cs using Guid(3a7cedf246fca744f90cbdc9dbe41166) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cfd2f43ed99c9ef6f530ff231236ea95') in 0.0014485 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Cameras/Scripts/FreeLookCam.cs
+  artifactKey: Guid(e44af8091779fcb40801d5b284353dbe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Cameras/Scripts/FreeLookCam.cs using Guid(e44af8091779fcb40801d5b284353dbe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c8a0bee21caa0aa89f5ab7382681e6aa') in 0.001251625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/Rewarded/1024x768.prefab
+  artifactKey: Guid(ac0a546bb4fb349229fc5824b288ec00) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/Rewarded/1024x768.prefab using Guid(ac0a546bb4fb349229fc5824b288ec00) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '64ceb3b25efd7d2c5aca937461179201') in 0.003846417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/PlayFabSDK/Shared/Internal/PlayFabErrors.cs
+  artifactKey: Guid(ed146f2193bb8ef49ad1200eefdab503) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PlayFabSDK/Shared/Internal/PlayFabErrors.cs using Guid(ed146f2193bb8ef49ad1200eefdab503) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '36f52b338a4d5df04e3e02e0e67becf6') in 0.001467458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/SampleScenes/Menu/Scripts/PauseMenu.cs
+  artifactKey: Guid(2e24edb1e0408479aabee4aab0833870) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/SampleScenes/Menu/Scripts/PauseMenu.cs using Guid(2e24edb1e0408479aabee4aab0833870) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1cfb02c6d2781c4734f65a73820f43cb') in 0.001256833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/PlayFabSDK/Shared/Public/PlayFabLogger.cs
+  artifactKey: Guid(65702fe1cdebb8e4783afb157a614161) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PlayFabSDK/Shared/Public/PlayFabLogger.cs using Guid(65702fe1cdebb8e4783afb157a614161) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fb2989b02c4e11963b30c56dc80eefef') in 0.001246875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Car/Textures/SkidTrailAlbedo.png
+  artifactKey: Guid(06e5c4401455b1d43a6255b4b8776102) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Car/Textures/SkidTrailAlbedo.png using Guid(06e5c4401455b1d43a6255b4b8776102) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0f1e38d1f520a96d8f2fa01be360a7dc') in 0.003571334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/PlayFabSDK/Shared/Editor/PlayFabHelp.cs
+  artifactKey: Guid(e51e733dabbc847fa839b19c01bc577c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PlayFabSDK/Shared/Editor/PlayFabHelp.cs using Guid(e51e733dabbc847fa839b19c01bc577c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dc8c87c000ce0d1e61cbb69acb68bfae') in 0.001268333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Plugins/SimpleInput/Editor/MouseButtonInputDrawer.cs
+  artifactKey: Guid(a109724b706e596419d6a7ff4c2a9e46) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Plugins/SimpleInput/Editor/MouseButtonInputDrawer.cs using Guid(a109724b706e596419d6a7ff4c2a9e46) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a896c81bcc9b62f39c720e2f84579013') in 0.001192125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/PlayFabSDK/Shared/Internal/PlayFabHttp/PlayFabWebRequest.cs
+  artifactKey: Guid(18fd1a0daadd68d45aebf8c19cac2bda) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PlayFabSDK/Shared/Internal/PlayFabHttp/PlayFabWebRequest.cs using Guid(18fd1a0daadd68d45aebf8c19cac2bda) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '62bdb6a3db3774298a8119688d81758f') in 0.001319916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/PlayFabSDK/Shared/Public/ISerializerPlugin.cs
+  artifactKey: Guid(d33ec65e8a628fe44a4aa5c55289a16d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PlayFabSDK/Shared/Public/ISerializerPlugin.cs using Guid(d33ec65e8a628fe44a4aa5c55289a16d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '777851ed92ca2aad5cc09d166eefdbe5') in 0.00131375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Plugins/iOS/NativeTemplates/GADTMediumTemplateView.xib
+  artifactKey: Guid(766f36c9503c48e5915b2dbb1b312f64) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/iOS/NativeTemplates/GADTMediumTemplateView.xib using Guid(766f36c9503c48e5915b2dbb1b312f64) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '924c8e7f39206d26211655b6dd30d017') in 0.001710583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/SampleScenes/Scripts/PlaceTargetWithMouse.cs
+  artifactKey: Guid(8336d9bb1ba56ae49b0d343112f2a5f8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/SampleScenes/Scripts/PlaceTargetWithMouse.cs using Guid(8336d9bb1ba56ae49b0d343112f2a5f8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '330363a60f09212d5e64c0f315827154') in 0.001263583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/Banners/LARGE_BANNER.prefab
+  artifactKey: Guid(2758392ec5c0c413886eaf50350c125e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/Banners/LARGE_BANNER.prefab using Guid(2758392ec5c0c413886eaf50350c125e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ced30e2ac9c74f779d7817312cf4173f') in 0.005242833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/AdImages/320x50.png
+  artifactKey: Guid(5a6531d4c9c484d679a2d6f9e6fefed5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/AdImages/320x50.png using Guid(5a6531d4c9c484d679a2d6f9e6fefed5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '22afd4096ef89200b29ffc7dcca121c8') in 0.004628459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Utility/PlatformSpecificContent.cs
+  artifactKey: Guid(b27507c5d0efbbd47ac8c1de9a1a0a35) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Utility/PlatformSpecificContent.cs using Guid(b27507c5d0efbbd47ac8c1de9a1a0a35) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5546db9c03d7a349fcf874f1d738f695') in 0.001342291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/Banners/MEDIUM_RECTANGLE.prefab
+  artifactKey: Guid(da3156337d5ca4d529cf72f8b467823b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/Banners/MEDIUM_RECTANGLE.prefab using Guid(da3156337d5ca4d529cf72f8b467823b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '806bfa1d09b5c89a6b46bd95903e4340') in 0.003638958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Plugins/SimpleInput/Editor/ButtonInputDrawer.cs
+  artifactKey: Guid(807954391627078488b7b2355ae0c66a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Plugins/SimpleInput/Editor/ButtonInputDrawer.cs using Guid(807954391627078488b7b2355ae0c66a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd8106106113bf5224c74f95a9bcc5ca9') in 0.001345084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Cameras/Scripts/LookatTarget.cs
+  artifactKey: Guid(f2ec2b96de5640e42a622fc3064f1c80) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Cameras/Scripts/LookatTarget.cs using Guid(f2ec2b96de5640e42a622fc3064f1c80) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3ed9bc0d8e9f801edb538216134dd918') in 0.001412708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Utility/FPSCounter.cs
+  artifactKey: Guid(22bbf57ec543cee42a5aa0ec2dd9e457) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Utility/FPSCounter.cs using Guid(22bbf57ec543cee42a5aa0ec2dd9e457) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '796cec2287350d1402743da58c055a0e') in 0.001323292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Utility/TimedObjectDestructor.cs
+  artifactKey: Guid(37fac21d1f093d344816942d1abce94e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Utility/TimedObjectDestructor.cs using Guid(37fac21d1f093d344816942d1abce94e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '745dc17cbd2e3a0e16a2233435680a74') in 0.001187417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Plugins/iOS/NativeTemplates/GADTSmallTemplateView.xib
+  artifactKey: Guid(6af78782470b4da9994fc4cf04f03183) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/iOS/NativeTemplates/GADTSmallTemplateView.xib using Guid(6af78782470b4da9994fc4cf04f03183) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cb0efe0e93e43f04e8b693aeebf5dae3') in 0.001692083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/PlayFabSDK/Shared/Public/Resources/PlayFabSharedSettings.asset
+  artifactKey: Guid(698b2db098268c640929a7b8090a31eb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PlayFabSDK/Shared/Public/Resources/PlayFabSharedSettings.asset using Guid(698b2db098268c640929a7b8090a31eb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9ba91809112aba76344a0791093644cf') in 0.002670666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/PlayFabSDK/Shared/Internal/PlayFabHttp/IPlayFabHttp.cs
+  artifactKey: Guid(aeac58284b4b1cd4ab93ab0e71ba8540) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PlayFabSDK/Shared/Internal/PlayFabHttp/IPlayFabHttp.cs using Guid(aeac58284b4b1cd4ab93ab0e71ba8540) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1840196902fec994da61dbef677bd231') in 0.001422958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Plugins/SimpleInput/Editor/KeyInputDrawer.cs
+  artifactKey: Guid(86d29f9c9e5e8484d9cb45830a3feab0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Plugins/SimpleInput/Editor/KeyInputDrawer.cs using Guid(86d29f9c9e5e8484d9cb45830a3feab0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2707fc2f4362fab60499f9357f90ca0f') in 0.001320875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/Banners/BANNER.prefab
+  artifactKey: Guid(b2a8ac187bcca47a286cb00c8094da36) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/Banners/BANNER.prefab using Guid(b2a8ac187bcca47a286cb00c8094da36) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ab32928798da66adb794337dd791056a') in 0.003794209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Utility/CameraRefocus.cs
+  artifactKey: Guid(d1e2e7a54dcc8694ab1eca46d072f264) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Utility/CameraRefocus.cs using Guid(d1e2e7a54dcc8694ab1eca46d072f264) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e17aeb24afbf9dc4bb3d14e7c92da4e1') in 0.001287125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs
+  artifactKey: Guid(1caf40fc8bebb6b43b2550c05ca791d6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs using Guid(1caf40fc8bebb6b43b2550c05ca791d6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '17451853dba404f080c7fc638495280e') in 0.0013965 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/PlayFabSDK/Shared/Public/PlayFabEvents.cs
+  artifactKey: Guid(059603d7e53649849b7f08d3b99af79c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PlayFabSDK/Shared/Public/PlayFabEvents.cs using Guid(059603d7e53649849b7f08d3b99af79c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c1f32dea28da695d0516561655ddefe0') in 0.001104042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/AppOpen/768x1024.prefab
+  artifactKey: Guid(7d86e5c9e525f4fadbbea7ee54246b94) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/AppOpen/768x1024.prefab using Guid(7d86e5c9e525f4fadbbea7ee54246b94) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8925bdca30e38ed9b956f4cb4ae760ff') in 0.005259042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Car/Scripts/Suspension.cs
+  artifactKey: Guid(9ec1e45165d1f2544bff59f5a80db8ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Car/Scripts/Suspension.cs using Guid(9ec1e45165d1f2544bff59f5a80db8ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b06670e4aa6cd310101f2cb33e9c4cb8') in 0.001430291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/CrossPlatformInput/Scripts/AxisTouchButton.cs
+  artifactKey: Guid(9ab98b66288df7b4fa182075f2f12bd6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/CrossPlatformInput/Scripts/AxisTouchButton.cs using Guid(9ab98b66288df7b4fa182075f2f12bd6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a86bd80d235e2ae66b043494b34f8fa6') in 0.00134775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Utility/WaypointProgressTracker.cs
+  artifactKey: Guid(c5cb22d331ef7d64796f917c6a455a32) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Utility/WaypointProgressTracker.cs using Guid(c5cb22d331ef7d64796f917c6a455a32) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2c4161b92ac3bba40ee97f68c1bbd2ac') in 0.00143525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/Banners/LEADERBOARD.prefab
+  artifactKey: Guid(60a76727b740d485fa446352e56931c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/Banners/LEADERBOARD.prefab using Guid(60a76727b740d485fa446352e56931c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b4c86541df2f9e7808bc88ea07361d06') in 0.003948917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Utility/ActivateTrigger.cs
+  artifactKey: Guid(c8634e062924929664361c08745211fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Utility/ActivateTrigger.cs using Guid(c8634e062924929664361c08745211fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3c7322d2f31eac111795bd6763cff9bf') in 0.001435917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Car/Audio/Skid.wav
+  artifactKey: Guid(bd9566abdbf08834281bfb4ea8b92a5d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Car/Audio/Skid.wav using Guid(bd9566abdbf08834281bfb4ea8b92a5d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4f73d70f5216ce08db32bbdf3e74becc') in 0.008116042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/AdImages/468x60.png
+  artifactKey: Guid(74358f5fb13a549aabac4a5a7ac76739) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/AdImages/468x60.png using Guid(74358f5fb13a549aabac4a5a7ac76739) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4d30c1e52055dcf9393b4c84a257f74d') in 0.005875542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Car/Materials/SkyCarLightGlows.mat
+  artifactKey: Guid(1a73e44cee8154269b67cd5f5ebd6003) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Car/Materials/SkyCarLightGlows.mat using Guid(1a73e44cee8154269b67cd5f5ebd6003) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ad567f4024d109e0eba5955f12a09371') in 0.004420334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Car/Materials/SkyCarLightGlows2.mat
+  artifactKey: Guid(3682f7747d485db4586750a832808b31) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Car/Materials/SkyCarLightGlows2.mat using Guid(3682f7747d485db4586750a832808b31) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5c454ec8c89a97ef8a5e34a7cc02eaa2') in 0.002503541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Cameras/Scripts/ProtectCameraFromWallClip.cs
+  artifactKey: Guid(94b04ec3bda6b7747aa53936ef3b0ae2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Cameras/Scripts/ProtectCameraFromWallClip.cs using Guid(94b04ec3bda6b7747aa53936ef3b0ae2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6660f1b7cde38bbb348935002b712f18') in 0.001398166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/PlayFabSDK/Shared/Internal/PlayFabHttp/PlayFabHTTP.cs
+  artifactKey: Guid(97a8a3caac8b73541aa8a9a1e330f479) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PlayFabSDK/Shared/Internal/PlayFabHttp/PlayFabHTTP.cs using Guid(97a8a3caac8b73541aa8a9a1e330f479) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '851f60e4dfe822314bbaae825405c5d1') in 0.00130425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Utility/DynamicShadowSettings.cs
+  artifactKey: Guid(8566902b50d5bfb4fb7f8b89f9cdbe8b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Utility/DynamicShadowSettings.cs using Guid(8566902b50d5bfb4fb7f8b89f9cdbe8b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a57cea9f53db0223e7ca2ff8846c9403') in 0.001207583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/SampleScenes/Scripts/ParticleSceneControls.cs
+  artifactKey: Guid(acea13a76cc56d74db53fc5bc2d9d315) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/SampleScenes/Scripts/ParticleSceneControls.cs using Guid(acea13a76cc56d74db53fc5bc2d9d315) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2bcc7d4fc2130630b643aa8cdb954a41') in 0.001211375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Plugins/SimpleInput/Editor/BaseInputDrawer.cs
+  artifactKey: Guid(eca58b1bb7542da4885acdcc10d56975) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Plugins/SimpleInput/Editor/BaseInputDrawer.cs using Guid(eca58b1bb7542da4885acdcc10d56975) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c657b535109a709f7ea1581dc2fd3814') in 0.0011605 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs
+  artifactKey: Guid(71398ce7fbc3a5b4fa50b50bd54317a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs using Guid(71398ce7fbc3a5b4fa50b50bd54317a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e5823f87bb4645c4628677bc9ee2f952') in 0.001150084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Car/Textures/SkyCarBodyOcclusion.png
+  artifactKey: Guid(bd0d469704e7c934ebddc45ece4c1868) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Car/Textures/SkyCarBodyOcclusion.png using Guid(bd0d469704e7c934ebddc45ece4c1868) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '599680bfb58ddabf701bed9f2ab76a3e') in 0.00407725 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Car/Materials/SkyCarLightCoversGrey.mat
+  artifactKey: Guid(bf5faaa3a8e23de45bf1350be2893dd7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Car/Materials/SkyCarLightCoversGrey.mat using Guid(bf5faaa3a8e23de45bf1350be2893dd7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '58bfbe804a7750868ee5865225b2a994') in 0.02594225 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PlayFabSDK/Shared/Internal/ISerializer.cs
+  artifactKey: Guid(1337f8c156b41834691b131f3b6774f9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PlayFabSDK/Shared/Internal/ISerializer.cs using Guid(1337f8c156b41834691b131f3b6774f9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b36e4550124413381657d285ef1fb3d1') in 0.001268959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PlayFabSDK/Shared/Internal/Log.cs
+  artifactKey: Guid(5b55790eeab1b3c41a4f1381cbea1213) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PlayFabSDK/Shared/Internal/Log.cs using Guid(5b55790eeab1b3c41a4f1381cbea1213) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd91c8b5d35b32140ad378e9ad7ce659c') in 0.001019833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/PlayFabSDK/Shared/Public/PlayFabAuthenticationContext.cs
+  artifactKey: Guid(5e4df1f8e07aee2409343554f628ce8b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PlayFabSDK/Shared/Public/PlayFabAuthenticationContext.cs using Guid(5e4df1f8e07aee2409343554f628ce8b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5d298542110302472a8ffae1bec3f7fb') in 0.001179459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/PlayFabSDK/Shared/Public/PlayFabDataGatherer.cs
+  artifactKey: Guid(9021fc3e0230b9a4db0f0e1b104b764b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PlayFabSDK/Shared/Public/PlayFabDataGatherer.cs using Guid(9021fc3e0230b9a4db0f0e1b104b764b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ea36be91ca24344ddf81ae73c07b5f3c') in 0.001310167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/PlayFabSDK/Shared/Public/PluginContract.cs
+  artifactKey: Guid(2e25ec8533eb4fe4fa7d39cc8dcda24c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PlayFabSDK/Shared/Public/PluginContract.cs using Guid(2e25ec8533eb4fe4fa7d39cc8dcda24c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b1070e2b3b66eeb1a954e5f87478243a') in 0.00128525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Utility/AutoMobileShaderSwitch.cs
+  artifactKey: Guid(9c4978ff6447f9040b84acc89b0bbdc8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Utility/AutoMobileShaderSwitch.cs using Guid(9c4978ff6447f9040b84acc89b0bbdc8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c895a84b55ec52302c76c420ea5b9605') in 0.0013255 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/PlayFabSDK/Shared/Models/SharedModels.cs
+  artifactKey: Guid(8e2ad5324972b434883785ddddf9c851) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PlayFabSDK/Shared/Models/SharedModels.cs using Guid(8e2ad5324972b434883785ddddf9c851) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fa5d0ee2ef88a8ad4f1bbb5449e44cf3') in 0.00115975 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/Ump/ConsentForm.png
+  artifactKey: Guid(cb0d255b8cd434556a80e3ae50b24b9c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GoogleMobileAds/Editor/Resources/Ump/ConsentForm.png using Guid(cb0d255b8cd434556a80e3ae50b24b9c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '615bfd1083f9228df206c480a5273df0') in 0.004732334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/SampleScenes/Scripts/LevelReset.cs
+  artifactKey: Guid(3d72a710d92c34e47beaa42373beec95) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/SampleScenes/Scripts/LevelReset.cs using Guid(3d72a710d92c34e47beaa42373beec95) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8a5431d58fe391e6c07215c8e4bd066b') in 0.001283084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Utility/FollowTarget.cs
+  artifactKey: Guid(246cc59c7a84ea44f87f6b70acfe30c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Utility/FollowTarget.cs using Guid(246cc59c7a84ea44f87f6b70acfe30c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e3fb4572237982b81f484c4cc65b6470') in 0.001270167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/Banners/SMART_BANNER.prefab
+  artifactKey: Guid(15069cdc38e2b41f7836116419a9187c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/Banners/SMART_BANNER.prefab using Guid(15069cdc38e2b41f7836116419a9187c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cf3a243c5f42cba34d88149004f0a3c1') in 0.005040708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Plugins/SimpleInput/Scripts/SimpleInputHelper.cs
+  artifactKey: Guid(424a57205c2ff3c47aa53837c12b836b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Plugins/SimpleInput/Scripts/SimpleInputHelper.cs using Guid(424a57205c2ff3c47aa53837c12b836b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cc6362f97aa51fbf2ff43a96e11238a3') in 0.001405375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/PlayFabSDK/Shared/Editor/PlayFabSdkEditor.asmdef
+  artifactKey: Guid(8aa8a8085039f0e4ba1c8d6480d45262) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PlayFabSDK/Shared/Editor/PlayFabSdkEditor.asmdef using Guid(8aa8a8085039f0e4ba1c8d6480d45262) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '10dda6e2edc168292bff6cb3eda3fd8e') in 0.001372666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Car/Scripts/Mudguard.cs
+  artifactKey: Guid(459cec5b068041e44a60a6e3b6abb0eb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Car/Scripts/Mudguard.cs using Guid(459cec5b068041e44a60a6e3b6abb0eb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8eac17635fc72ef87b3f9b8e82011546') in 0.001329958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/Banners/ADAPTIVE.prefab
+  artifactKey: Guid(b2a3ea2f1837847d9981501e0eeca085) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/Banners/ADAPTIVE.prefab using Guid(b2a3ea2f1837847d9981501e0eeca085) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '58982218b2e0757e4fdd4f65a0bc6c12') in 0.003555084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Car/Models/SkyCar intermitente.fbx
+  artifactKey: Guid(7c2304f5cac4a420087895f6db575b28) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Car/Models/SkyCar intermitente.fbx using Guid(7c2304f5cac4a420087895f6db575b28) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cbb534de8f3fb64d4761373fc7a0a074') in 0.004856791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Plugins/SimpleInput/Editor/AxisInputDrawer.cs
+  artifactKey: Guid(174c0f628c7d3e44e9d9698a45fcf1aa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Plugins/SimpleInput/Editor/AxisInputDrawer.cs using Guid(174c0f628c7d3e44e9d9698a45fcf1aa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '294b6b1e44ddbc265549c10a4326f558') in 0.001195959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/PlayFabSDK/Shared/Internal/SimpleJson.cs
+  artifactKey: Guid(bce6184794650f24fa8ac244b25edc17) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PlayFabSDK/Shared/Internal/SimpleJson.cs using Guid(bce6184794650f24fa8ac244b25edc17) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f6db3b05145eaffd1f469e898c4344ff') in 0.00125275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/Banners/FULL_BANNER.prefab
+  artifactKey: Guid(a01bd5a6d0f504aecb61dad504950abd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/Banners/FULL_BANNER.prefab using Guid(a01bd5a6d0f504aecb61dad504950abd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'aa522f46d015c979113c2aa9a97176ca') in 0.003661209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.269004 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs
+  artifactKey: Guid(0f57aeb1b8dce3342bea5c28ac17db24) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs using Guid(0f57aeb1b8dce3342bea5c28ac17db24) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7ef409efaa52f2b3f220ba687072b4f0') in 0.001869916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Plugins/SimpleInput/Scripts/Core/ISimpleInputDraggableMultiTouch.cs
+  artifactKey: Guid(542cc28fca7a01e4c94bec265ff28589) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Plugins/SimpleInput/Scripts/Core/ISimpleInputDraggableMultiTouch.cs using Guid(542cc28fca7a01e4c94bec265ff28589) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4d90baf0c41953902e76df730044f3e0') in 0.001155792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Editor/Water/Water4/GerstnerDisplaceEditor.cs
+  artifactKey: Guid(1dfa22e5547fb4a4585ba225887d89dd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Editor/Water/Water4/GerstnerDisplaceEditor.cs using Guid(1dfa22e5547fb4a4585ba225887d89dd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '87483ac5af6b993597e20024f4b520bd') in 0.001226416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonCharacter.cs
+  artifactKey: Guid(ce7a80d520cacc042b5fe14f373d8173) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonCharacter.cs using Guid(ce7a80d520cacc042b5fe14f373d8173) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4878be7d3f86a8c2b8277e3de6f594d0') in 0.000969708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Plugins/SimpleInput/Scripts/ButtonInputs/ButtonInputSwipeGesture.cs
+  artifactKey: Guid(8a90681e07d4e3c47a110a9555eea57c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Plugins/SimpleInput/Scripts/ButtonInputs/ButtonInputSwipeGesture.cs using Guid(8a90681e07d4e3c47a110a9555eea57c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3e26858e817e217f40318a8aa7d66ed3') in 0.0011895 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Plugins/SimpleInput/Scripts/KeyInputs/KeyInputUI.cs
+  artifactKey: Guid(fc8d2f3cf1118bf4ab1c5f540a08bbd2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Plugins/SimpleInput/Scripts/KeyInputs/KeyInputUI.cs using Guid(fc8d2f3cf1118bf4ab1c5f540a08bbd2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '78ec70db83b353c7f84b3b642a42c9d1') in 0.001192833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Plugins/SimpleInput/Scripts/AxisInputs/Dpad.cs
+  artifactKey: Guid(98005cf4195d9954cb478595517f0d7c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Plugins/SimpleInput/Scripts/AxisInputs/Dpad.cs using Guid(98005cf4195d9954cb478595517f0d7c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '65595c0f0e7a52aa1940a18393079090') in 0.001207292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Plugins/SimpleInput/Scripts/AxisInputs/AxisInputMouse.cs
+  artifactKey: Guid(22399be9592f58241ac1138672496a31) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Plugins/SimpleInput/Scripts/AxisInputs/AxisInputMouse.cs using Guid(22399be9592f58241ac1138672496a31) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4d004768031e21148fac077360553fa1') in 0.001279375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/ParticleSystems/Scripts/Hose.cs
+  artifactKey: Guid(915950f1f73ea9e429d92b7226238623) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/ParticleSystems/Scripts/Hose.cs using Guid(915950f1f73ea9e429d92b7226238623) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '870b26f54e6281c53d96aec2b47acc50') in 0.002705917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Car/Models/tex/carroceria textura.jpg
+  artifactKey: Guid(74035b5c8bd334b3aa8886acc9b08755) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Car/Models/tex/carroceria textura.jpg using Guid(74035b5c8bd334b3aa8886acc9b08755) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '136b33cc00356ef82538b0d41342e330') in 0.003803792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Plugins/SimpleInput/Scripts/Core/SimpleInputDragListener.cs
+  artifactKey: Guid(b52dca7e30160fe448d7cd2c412efecc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Plugins/SimpleInput/Scripts/Core/SimpleInputDragListener.cs using Guid(b52dca7e30160fe448d7cd2c412efecc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a4a2248b7c85a0b4df4b2dfbc81c305a') in 0.00137275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs
+  artifactKey: Guid(9703d53e47195aa4190acd11369ccd1b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs using Guid(9703d53e47195aa4190acd11369ccd1b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '00db6b3c3fde3d2f1c877defc8a9b8af') in 0.001256667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Environment/Water/Water/Scripts/GerstnerDisplace.cs
+  artifactKey: Guid(42e7f46d0e5a84171a3909479c1646ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Environment/Water/Water/Scripts/GerstnerDisplace.cs using Guid(42e7f46d0e5a84171a3909479c1646ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8b513eed080fd7c420a81a6ff0ec270e') in 0.001309667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Environment/Water (Basic)/Scripts/WaterBasic.cs
+  artifactKey: Guid(0d2f50a8e0bb841a5aaa90ae55db8849) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Environment/Water (Basic)/Scripts/WaterBasic.cs using Guid(0d2f50a8e0bb841a5aaa90ae55db8849) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e4621ac7be1bc3b63a5be0b1c3882469') in 0.001372958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Environment/Water/Water/Scripts/WaterTile.cs
+  artifactKey: Guid(2a91e8dd37cdd41efb4859b65aced7a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Environment/Water/Water/Scripts/WaterTile.cs using Guid(2a91e8dd37cdd41efb4859b65aced7a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd365d476c1d6d4ef5bf3bb18d9b4f07a') in 0.001231167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Plugins/SimpleInput/Scripts/Core/SimpleInputUtils.cs
+  artifactKey: Guid(68bf9be257e135b4da6233529c2a1cf6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Plugins/SimpleInput/Scripts/Core/SimpleInputUtils.cs using Guid(68bf9be257e135b4da6233529c2a1cf6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8f5f0ef2b5c30211500c63df40906155') in 0.001188792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Environment/Water/Water/Scripts/PlanarReflection.cs
+  artifactKey: Guid(4185bc77c7194462ca3b1097ef4a5de0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Environment/Water/Water/Scripts/PlanarReflection.cs using Guid(4185bc77c7194462ca3b1097ef4a5de0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '68ee31d650c43a20d0635c9700ed5b69') in 0.001222167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Characters/FirstPersonCharacter/Scripts/HeadBob.cs
+  artifactKey: Guid(83c81407209f85e4c87c0cda8b32868e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Characters/FirstPersonCharacter/Scripts/HeadBob.cs using Guid(83c81407209f85e4c87c0cda8b32868e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e42eacfc4e4e5104c81f9263c505a4ed') in 0.001397167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Plugins/SimpleInput/Sprites/TransparentDark/Arrows/transparentDark25.png
+  artifactKey: Guid(062cee36aaf322e47821b456db3e1f44) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Plugins/SimpleInput/Sprites/TransparentDark/Arrows/transparentDark25.png using Guid(062cee36aaf322e47821b456db3e1f44) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3a7e8e4c1c4d13bb19f0ab4e34fbac6d') in 0.004156625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Plugins/SimpleInput/Sprites/TransparentDark/Arrows/transparentDark24.png
+  artifactKey: Guid(f57649fe1a2603a479aa18b473201768) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Plugins/SimpleInput/Sprites/TransparentDark/Arrows/transparentDark24.png using Guid(f57649fe1a2603a479aa18b473201768) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7ae044baf3ef7acb62d5abcf648bac94') in 0.004254459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Editor/Water/Water4/PlanarReflectionEditor.cs
+  artifactKey: Guid(ff3b0e14a61014f50be83e1a18c6d43e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Editor/Water/Water4/PlanarReflectionEditor.cs using Guid(ff3b0e14a61014f50be83e1a18c6d43e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1a858556660bbbd53a06df0db6d17c63') in 0.001369834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/ParticleSystems/Scripts/Explosive.cs
+  artifactKey: Guid(433e9c8d0293ac4429eaf19bff2b58cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/ParticleSystems/Scripts/Explosive.cs using Guid(433e9c8d0293ac4429eaf19bff2b58cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3fc183cf0fafe3bf7b20425a7e88f3bc') in 0.001258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/ParticleSystems/Scripts/AfterburnerPhysicsForce.cs
+  artifactKey: Guid(5d44a238286f6904198ab78e914c229d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/ParticleSystems/Scripts/AfterburnerPhysicsForce.cs using Guid(5d44a238286f6904198ab78e914c229d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd1d2b76912ebafb65fb967dad9568f3e') in 0.001333708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Editor/Water/Water4/WaterEditorUtility.cs
+  artifactKey: Guid(f67f2bac30f824d4f8270bb8bb0779df) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Editor/Water/Water4/WaterEditorUtility.cs using Guid(f67f2bac30f824d4f8270bb8bb0779df) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f725209324e0c4d797f9d632b3992a24') in 0.001420166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Car/Models/tex/llanta textura.jpg
+  artifactKey: Guid(6428e76c1bdcb43f397ccf5fd1cd1e63) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Car/Models/tex/llanta textura.jpg using Guid(6428e76c1bdcb43f397ccf5fd1cd1e63) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6e6576ad02e6e42755eb5261678e5d59') in 0.003408792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Plugins/SimpleInput/Scripts/AxisInputs/SteeringWheel.cs
+  artifactKey: Guid(87a2186a42ce6a34ba7023f89a01611f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Plugins/SimpleInput/Scripts/AxisInputs/SteeringWheel.cs using Guid(87a2186a42ce6a34ba7023f89a01611f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'aa0f75a0ab8fed2bc06594ab79759986') in 0.002728958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Plugins/SimpleInput/Scripts/MouseButtonInputs/MouseButtonInputKeyboard.cs
+  artifactKey: Guid(5409ad7137422ce48b283ed417156c5b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Plugins/SimpleInput/Scripts/MouseButtonInputs/MouseButtonInputKeyboard.cs using Guid(5409ad7137422ce48b283ed417156c5b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c60a370ce7838fdc58ce6af23ec6575a') in 0.001209792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Plugins/SimpleInput/Scripts/KeyInputs/KeyInputSwipeGesture.cs
+  artifactKey: Guid(2d07eac9db8e46d4d862e4ba985d21ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Plugins/SimpleInput/Scripts/KeyInputs/KeyInputSwipeGesture.cs using Guid(2d07eac9db8e46d4d862e4ba985d21ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a2935dd5544819d724f69d095153f99e') in 0.00135575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/ParticleSystems/Scripts/ExtinguishableParticleSystem.cs
+  artifactKey: Guid(13e3e45088e68834999c82ca6f025949) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/ParticleSystems/Scripts/ExtinguishableParticleSystem.cs using Guid(13e3e45088e68834999c82ca6f025949) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '961cdc624e7faef3cfd8a37c339fb979') in 0.001485917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Environment/Water/Water/Scripts/Displace.cs
+  artifactKey: Guid(c62b7d87755b447919138e67f8e22e0c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Environment/Water/Water/Scripts/Displace.cs using Guid(c62b7d87755b447919138e67f8e22e0c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '87c983b54fafa7894b70fd583a229b26') in 0.001185208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Plugins/SimpleInput/Scripts/MouseButtonInputs/MouseButtonInputUI.cs
+  artifactKey: Guid(e4107d86bdaba964b8bcaf073e647b74) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Plugins/SimpleInput/Scripts/MouseButtonInputs/MouseButtonInputUI.cs using Guid(e4107d86bdaba964b8bcaf073e647b74) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e39275fb2a85d52b8e06560c3ad0c945') in 0.001331875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs
+  artifactKey: Guid(05ec5cf00ca181d45a42ba1870e148c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs using Guid(05ec5cf00ca181d45a42ba1870e148c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c95246e5d286cbc8cea3e101e3469c6d') in 0.00126725 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Editor/Water/Water4/SpecularLightingEditor.cs
+  artifactKey: Guid(33f51eb21122c4ca6a199d561065ae30) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Editor/Water/Water4/SpecularLightingEditor.cs using Guid(33f51eb21122c4ca6a199d561065ae30) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c769316cf7b291fd56ac55f6ea59f7fc') in 0.001238166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/ParticleSystems/Scripts/FireLight.cs
+  artifactKey: Guid(723274b822865ed4d9ed2a504c0ca79d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/ParticleSystems/Scripts/FireLight.cs using Guid(723274b822865ed4d9ed2a504c0ca79d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7c6194f0b6337a78ec271978825f760c') in 0.001254541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/ParticleSystems/Scripts/WaterHoseParticles.cs
+  artifactKey: Guid(2d79772cda0b4b6409070163fcab05da) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/ParticleSystems/Scripts/WaterHoseParticles.cs using Guid(2d79772cda0b4b6409070163fcab05da) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b0aa00665c473b0c09a1882313b70d68') in 0.001149 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Characters/FirstPersonCharacter/Scripts/MouseLook.cs
+  artifactKey: Guid(37e60a97f2c87ae41b6cdc1055d78cb9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Standard Assets/Characters/FirstPersonCharacter/Scripts/MouseLook.cs using Guid(37e60a97f2c87ae41b6cdc1055d78cb9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f0f7e088785d8ab8a5e8f963ebe319b1') in 0.001372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/MAUTRACK GAME/UNITY car controller/Plugins/SimpleInput/Scripts/AxisInputs/AxisInputSwipeGesture.cs
+  artifactKey: Guid(32ed8d180db436746892bf97b4f0f333) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAUTRACK GAME/UNITY car controller/Plugins/SimpleInput/Scripts/AxisInputs/AxisInputSwipeGesture.cs using Guid(32ed8d180db436746892bf97b4f0f333) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '00fc886772b4f84f650dab4f935e8a86') in 0.001237375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.721468 seconds.
+  path: Assets/MAUTRACK GAME/Scenes/track0001.unity
+  artifactKey: Guid(d7bb7c59129b643fd8d05c6cf6034047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MAUTRACK GAME/Scenes/track0001.unity using Guid(d7bb7c59129b643fd8d05c6cf6034047) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd222b76fd398022a4d9eb6e58b95c54') in 0.000344583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f403000 may have been prematurely finalized
+ADTM: Control thread waiting for realtime thread timed out, have to lock...
+- Loaded All Assemblies, in  1.428 seconds
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.447 seconds
+Domain Reload Profiling: 1876ms
+	BeginReloadAssembly (1124ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1046ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (254ms)
+		LoadAssemblies (181ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (114ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (98ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (447ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (338ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (97ms)
+			ProcessInitializeOnLoadAttributes (201ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3774 unused Assets / (0.8 MB). Loaded Objects now: 4363.
+Memory consumption went from 101.8 MB to 101.0 MB.
+Total: 5.024792 ms (FindLiveObjects: 0.190416 ms CreateObjectMapping: 0.094209 ms MarkObjects: 4.096792 ms  DeleteObjects: 0.642834 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 67.271519 seconds.
+  path: Assets/MAUTRACK GAME/Scenes/track0001.unity
+  artifactKey: Guid(d7bb7c59129b643fd8d05c6cf6034047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MAUTRACK GAME/Scenes/track0001.unity using Guid(d7bb7c59129b643fd8d05c6cf6034047) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fdb6b5c64393a04c8b22eb0e26ce410f') in 0.001390333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+

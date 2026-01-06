@@ -456,6 +456,7 @@
 "Assets/MAUTRACK GAME/scripts/lastposition.cs"
 "Assets/MAUTRACK GAME/scripts/LoadScene.cs"
 "Assets/MAUTRACK GAME/scripts/marlyn.cs"
+"Assets/MAUTRACK GAME/scripts/MatchmakingManager.cs"
 "Assets/MAUTRACK GAME/scripts/PlayFabManager.cs"
 "Assets/MAUTRACK GAME/scripts/random_move.cs"
 "Assets/MAUTRACK GAME/scripts/renderfalse.cs"

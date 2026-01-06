@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/MAUTRACK GAME/Scenes/track0001.unity
+- path: Assets/MAUTRACK GAME/Scenes/MainMenu.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
