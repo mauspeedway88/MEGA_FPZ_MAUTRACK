@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf5c27aeae7794366b5e2ac3650a1e42, type: 3}
+  m_Name: LongRange
+  m_EditorClassIdentifier: Assembly-CSharp::Starter.Shooter.WeaponData
+  WeaponID: 2
+  WeaponName: LongRange
+  WeaponIcon: {fileID: 21300000, guid: ff94696175ed60444950df7440c9c433, type: 3}
+  weaponPrefab: {fileID: 2273022344544888768, guid: 180fdca6a657c804ea236f9f0ac7d81b,
+    type: 3}
+  Price: 1
+  Type: 0
+  Damage: 5
+  Range: 500
+  FireRate: 1
+  Spread: 120
+  PelletCount: 5
+  ProjectilePrefab: {fileID: 0}
+  ProjectileSpeed: 50
+  ProjectileGravity: 0
+  ProjectileLifetime: 5
+  ProjectileSpread: 0
+  ProjectilePelletCount: 1
+  ImpactPrefab: {fileID: 0}
+  MuzzleParticlePrefab: {fileID: 0}
+  FireSoundClip: {fileID: 0}
+  FireSoundVolume: 1
+  MaxAmmo: 0
+  ClipSize: 0
+  ReloadTime: 2
