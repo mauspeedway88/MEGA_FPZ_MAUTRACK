@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf5c27aeae7794366b5e2ac3650a1e42, type: 3}
+  m_Name: Weapon02
+  m_EditorClassIdentifier: Assembly-CSharp::Starter.Shooter.WeaponData
+  WeaponID: 1
+  WeaponName: Weapon 02
+  WeaponIcon: {fileID: 0}
+  weaponPrefab: {fileID: 8662302606347303647, guid: c9a4ae9b64ec240ceb511ba9e7d4bf0c, type: 3}
+  Price: 50
+  Type: 0
+  Damage: 2
+  Range: 150
+  FireRate: 4
+  Spread: 1.5
+  PelletCount: 1
+  ProjectilePrefab: {fileID: 0}
+  ProjectileSpeed: 50
+  ProjectileGravity: 0
+  ProjectileLifetime: 5
+  ProjectileSpread: 0
+  ProjectilePelletCount: 1
+  ImpactPrefab: {fileID: 0}
+  MuzzleParticlePrefab: {fileID: 0}
+  FireSoundClip: {fileID: 0}
+  FireSoundVolume: 1
+  MaxAmmo: 0
+  ClipSize: 0
+  ReloadTime: 2
