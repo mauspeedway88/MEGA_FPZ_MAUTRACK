@@ -120,30 +120,15 @@ public class RewardedCoinsButton : MonoBehaviour
 
     public void ShowAd()
     {
-        Starter.Lobby.MainMenuController.LogToScreen("AdCoinsButton ShowAd CLICKED.");
-        if (!isPlatformSupported)
+        // [FIX] Redirect Directly to MainMenu Logic (Bypassing AdMob for User Build Test)
+        if (Starter.Lobby.MainMenuController.Instance != null)
         {
-            if (grantRewardOnUnsupportedPlatforms)
-            {
-                GrantReward();
-                Invoke(nameof(SimulateAdReload), 1f);
-            }
-            return;
-        }
-
-        if (!isAdLoaded || rewardedAd == null)
-        {
-            LoadAd();
-            return;
-        }
-
-        if (rewardedAd.CanShowAd())
-        {
-            rewardedAd.Show((reward) => GrantReward());
+            Starter.Lobby.MainMenuController.LogToScreen("[RewardedCoins] REDIRECTING CLICK TO MAIN MENU...");
+            Starter.Lobby.MainMenuController.Instance.GrantCoinsDebug();
         }
         else
         {
-            LoadAd();
+            Debug.LogError("[RewardedCoins] MainMenuController Instance is NULL!");
         }
     }
 

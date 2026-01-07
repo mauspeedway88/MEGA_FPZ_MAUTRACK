@@ -139,6 +139,46 @@ namespace Starter.Lobby
         private PlayFabManager _playFabManager;
         private PlayFabGameIntegration _playFabIntegration;
 
+        // --- SINGLETON & DEBUG RESTORED ---
+        private static MainMenuController _instance;
+        public static MainMenuController Instance => _instance;
+        private string _debugLog = "";
+
+        private void Awake()
+        {
+            _instance = this;
+        }
+
+        private void OnGUI()
+        {
+            if (!string.IsNullOrEmpty(_debugLog))
+                GUI.Label(new Rect(10, 10, 1200, 800), _debugLog, new GUIStyle { fontSize = 23, normal = { textColor = Color.yellow }, wordWrap = true });
+
+            // [RESTORED] DEBUG BUTTON - GUARANTEED METHOD
+            if (GUI.Button(new Rect(Screen.width - 220, 10, 200, 100), "DEBUG: ADD COINS"))
+            {
+                 LogToScreen("DEBUG BUTTON CLICKED.");
+                 OnAdButtonClicked("Coins");
+            }
+        }
+
+        public static void LogToScreen(string msg)
+        {
+            if (_instance != null)
+            {
+                _instance._debugLog = msg + "\n" + _instance._debugLog;
+                if (_instance._debugLog.Length > 2000) _instance._debugLog = _instance._debugLog.Substring(0, 2000);
+            }
+            Debug.Log(msg);
+        }
+
+        public void GrantCoinsDebug()
+        {
+            LogToScreen("[MainMenu] GrantCoinsDebug Called via External Redirection");
+            OnAdButtonClicked("Coins");
+        }
+        // ----------------------------------
+
         #region Unity Lifecycle
 
         private void Start()
@@ -250,7 +290,9 @@ namespace Starter.Lobby
                     if (txt != null && txt.text.Contains("Ads Coins"))
                     {
                         adCoinsButton = btn;
-                        LogToScreen($"[MainMenu] FOUND 'Ads Coins' by text content.");
+                        // [FIX] Disable Raycast on Text to ensure Button receives the click
+                        txt.raycastTarget = false; 
+                        LogToScreen($"[MainMenu] FOUND 'Ads Coins' by text. RaycastTarget disabled on text.");
                         break;
                     }
                 }
@@ -777,35 +819,9 @@ namespace Starter.Lobby
             }
         }
 
-        private static MainMenuController _instance;
-        private void Awake()
-        {
-            _instance = this;
-        }
-
-        private string _debugLog = "";
-        private void OnGUI()
-        {
-            // Simple On-Screen Debug for Build
-            GUI.Label(new Rect(10, 10, 1200, 800), _debugLog, new GUIStyle { fontSize = 23, normal = { textColor = Color.yellow }, wordWrap = true });
-
-            // [DEBUG BUTTON REMOVED for Final Test]
-        }
-        
-        public static void LogToScreen(string msg)
-        {
-            if (_instance != null)
-            {
-                _instance._debugLog = (msg + "\n" + _instance._debugLog);
-                // Keep log size manageable
-                if (_instance._debugLog.Length > 2000) _instance._debugLog = _instance._debugLog.Substring(0, 2000);
-            }
-            Debug.Log(msg);
-        }
 
         #endregion
 
-        // --- DEBUG & STATUS HELPERS ---
         private TextMeshProUGUI statusText;
 
         private void CreateDebugResetButton()

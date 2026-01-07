@@ -15476,6 +15476,10 @@ MonoBehaviour:
   shopPanel: {fileID: 1379855394}
   openShopBtn: {fileID: 1629862845}
   exitshopBtn: {fileID: 830015908}
+  adElixirButton: {fileID: 0}
+  adCoinsButton: {fileID: 0}
+  adWeapon1Button: {fileID: 0}
+  adWeapon2Button: {fileID: 0}
   connectedColor: {r: 0.2, g: 0.7, b: 0.2, a: 1}
   readyColor: {r: 0.1, g: 0.9, b: 0.1, a: 1}
   waitingColor: {r: 0.7, g: 0.5, b: 0.1, a: 1}
@@ -15483,6 +15487,7 @@ MonoBehaviour:
   playFabAuthUI: {fileID: 1783458981}
   profileButton: {fileID: 2071678607}
   leaderboardButton: {fileID: 470406733}
+  profileDisplayImage: {fileID: 0}
   coinsDisplayText: {fileID: 95551750}
   rankingDisplayText: {fileID: 1128190597}
   playerNameDisplayText: {fileID: 0}
